@@ -92,7 +92,7 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #D3D3D3;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -211,11 +211,21 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-@media screen and (min-width: 600px)  {
-
+@media screen and (min-width: 600px)  { /*Content size is determined by padding + width + margin.*/
+  input {
+  width: 100%;
+  }
+  
 }
 @media screen and (min-width: 992px) {
-
+  #container {
+    width: 450px;
+    float: right;
+    margin-right: 3%;
+  }
+  #submit {
+    width: 26%;
+  }
 } 
 
 /* ===== STATE STYLES ======= */
