@@ -222,6 +222,14 @@ label {
   margin: 0; /* Removes unnecessary extra margins */
   cursor: pointer;
 }
+
+h1 {
+  font-size: 61px; /* Scales according to the Major Sixth ratio */
+  line-height: 1.2; /* Improves readability */
+  text-align: center; /* Keeps it visually balanced */
+  margin-bottom: 20px; /* Adds some spacing */
+  color: #444; /* Ensures contrast while staying within gray tones */
+}
 /* ===== LAYOUT STYLES ====== */
 @media screen and (min-width: 600px)  { /*Content size is determined by padding + width + margin.*/
   input {
