@@ -20,7 +20,11 @@ button,
 input,
 optgroup,
 select,
-textarea {
+textarea { /*input affects how the boxes on the forms are displayed.*/
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
   font-family: "Inter", "Helvetica", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -200,6 +204,10 @@ html {
 
 label {
   display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 97%;
+  margin: 0 1.5%;
 }
 
 /* ===== LAYOUT STYLES ====== */
