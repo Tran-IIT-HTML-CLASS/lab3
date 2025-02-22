@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: "Inter", "Helvetica", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -203,7 +203,12 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+@media screen and (min-width: 600px)  {
 
+}
+@media screen and (min-width: 992px) {
+
+} 
 
 /* ===== STATE STYLES ======= */
 
