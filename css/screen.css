@@ -216,6 +216,10 @@ label {
   gap: 8px; /* Adds spacing between checkbox and label */
 }
 
+
+}
+/* ===== LAYOUT STYLES ====== */
+/*Moved my CSS styling here.*/
 [type="checkbox"] {
   width: 18px;
   height: 18px;
@@ -229,8 +233,8 @@ h1 {
   text-align: center; /* Keeps it visually balanced */
   margin-bottom: 20px; /* Adds some spacing */
   color: #444; /* Ensures contrast while staying within gray tones */
-}
-/* ===== LAYOUT STYLES ====== */
+/* ===== STATE STYLES ======= */
+/*Moved my media queries here.*/
 @media screen and (min-width: 600px)  { /*Content size is determined by padding + width + margin.*/
   input {
   width: 100%;
@@ -247,6 +251,3 @@ h1 {
     width: 26%;
   }
 } 
-
-/* ===== STATE STYLES ======= */
-
