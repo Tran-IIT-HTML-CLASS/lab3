@@ -202,6 +202,17 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+
+/* ===== LAYOUT STYLES ====== */
+/*Moved my CSS styling here.*/
+form {
+  box-sizing: content-box; /*Not sure if I should use content or border box.*/
+  background-color: gray;
+  padding: 3rem 3rem; /*Was confused on what padding standards to apply. I took some inspiration from Angeles' post, adjusting to fit the boxes. Thank you Angeles.*/
+  max-width: 600px; /*Went for a box design.*/
+  margin: 0 auto;
+}
+
 label {
   display: block;
   text-align: center;
@@ -216,10 +227,6 @@ label {
   gap: 8px; /* Adds spacing between checkbox and label */
 }
 
-
-}
-/* ===== LAYOUT STYLES ====== */
-/*Moved my CSS styling here.*/
 [type="checkbox"] {
   width: 18px;
   height: 18px;
@@ -232,7 +239,8 @@ h1 {
   line-height: 1.2; /* Improves readability */
   text-align: center; /* Keeps it visually balanced */
   margin-bottom: 20px; /* Adds some spacing */
-  color: #444; /* Ensures contrast while staying within gray tones */
+  color: #00000; /* Ensures contrast while staying within gray tones */
+}
 /* ===== STATE STYLES ======= */
 /*Moved my media queries here.*/
 @media screen and (min-width: 600px)  { /*Content size is determined by padding + width + margin.*/
@@ -248,6 +256,6 @@ h1 {
     margin-right: 3%;
   }
   #submit {
-    width: 26%;
+    width: 100%; /*Readjusted the submit button so it doesn't randomly shrink.*/
   }
 } 
