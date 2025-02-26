@@ -243,7 +243,7 @@ h1 {
   line-height: 1.2; /* Improves readability */
   text-align: center; /* Keeps it visually balanced */
   margin-bottom: 20px; /* Adds some spacing */
-  color: #00000; /* Ensures contrast while staying within gray tones */
+  color: #000000; /* Ensures contrast while staying within gray tones */
 }
 /* ===== STATE STYLES ======= */
 /*Moved my media queries here.*/
