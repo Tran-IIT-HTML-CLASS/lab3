@@ -205,11 +205,15 @@ html {
 
 /* ===== LAYOUT STYLES ====== */
 /*Moved my CSS styling here.*/
+
 form {
   box-sizing: content-box; /*Not sure if I should use content or border box.*/
   background-color: gray;
-  padding: 3rem 3rem; /*Was confused on what padding standards to apply. I took some inspiration from Angeles' post, adjusting to fit the boxes. Thank you Angeles.*/
-  max-width: 600px; /*Went for a box design.*/
+  padding: 4rem 3rem; /*Was confused on what padding standards to apply. I took some inspiration from Angeles' post, adjusting to fit the boxes. Thank you Angeles.*/
+  width: 60%; /*Went for a box design.*/
+  height: 50%; /*Stretches in accordance with browser window.*/
+  max-width: 600px;
+  max-height: 400px;
   margin: 0 auto;
 }
 
@@ -246,13 +250,14 @@ h1 {
 @media screen and (min-width: 600px)  { /*Content size is determined by padding + width + margin.*/
   input {
   width: 100%;
+  height: 100%;
   }
   
 }
 @media screen and (min-width: 992px) {
   #container {
     width: 450px;
-    float: right;
+    float: right; /*I believe this was to fix the boxes being misaligned?*/
     margin-right: 3%;
   }
   #submit {
